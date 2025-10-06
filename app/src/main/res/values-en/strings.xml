@@ -1,0 +1,48 @@
+<resources>
+    <!-- ===== TTS / Feedback (primary) ===== -->
+    <string name="tts_keep_posture">Keep your posture straight.</string>
+    <string name="tts_one_more">Just a bit more!</string>
+    <string name="tts_slow_down">Slow down a little.</string>
+    <string name="tts_good_job">Great job, keep going!</string>
+    <string name="tts_finish">Great job! You did %1$d reps today.</string>
+
+    <!-- ===== Feedback ALIAS (to support fb_* in code) ===== -->
+    <string name="fb_keep_straight">@string/tts_keep_posture</string>
+    <string name="fb_one_more">@string/tts_one_more</string>
+    <string name="fb_move_slowly">@string/tts_slow_down</string>
+    <string name="fb_good_job">@string/tts_good_job</string>
+    <string name="fb_open_chest">Open your chest.</string>
+    <string name="fb_drop_shoulders">Drop your shoulders.</string>
+
+    <!-- ===== App / Permission ===== -->
+    <string name="app_name">PhysioARV5</string>
+    <string name="camera_perm_wait">Requesting camera permission…</string>
+    <string name="camera_requesting">@string/camera_perm_wait</string>
+
+    <!-- ===== Selection ===== -->
+    <string name="selection_title">Select a body part</string>
+    <string name="part_knee">Knee</string>
+    <string name="part_shoulder">Shoulder</string>
+    <string name="part_hand">Wrist</string>
+    <string name="part_back">Back</string>
+    <string name="part_ankle">Ankle</string>
+    <string name="part_hip">Hip</string>
+    <string name="lang_th">TH</string>
+    <string name="lang_en">EN</string>
+
+    <!-- ===== AR Screen ===== -->
+    <string name="ar_title">AR Demonstration</string>
+    <string name="ar_place_model">Place AR 3D Model</string>
+    <string name="ar_ready">Start Physiotherapy</string>
+    <string name="overlay_tracking">Tracking: %1$s</string>
+
+    <!-- ===== Therapy ===== -->
+    <string name="therapy_reps">Reps</string>
+    <string name="therapy_progress">Progress</string>
+    <string name="therapy_time">Time</string>
+    <string name="therapy_hint_default">Follow the green guide on screen</string>
+    <string name="btn_back">Back</string>
+    <string name="btn_pause">Pause</string>
+    <string name="btn_resume">Resume</string>
+    <string name="btn_finish">Finish</string>
+</resources>

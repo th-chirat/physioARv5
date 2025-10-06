@@ -1,0 +1,48 @@
+<resources>
+    <!-- ===== TTS / Feedback (ตัวจริง) ===== -->
+    <string name="tts_keep_posture">รักษาทรงให้ตรงค่ะ</string>
+    <string name="tts_one_more">อีกนิดเดียวค่ะ</string>
+    <string name="tts_slow_down">ช้าลงหน่อยค่ะ</string>
+    <string name="tts_good_job">เก่งมากค่ะ ดำเนินต่อเลย</string>
+    <string name="tts_finish">เยี่ยมมาก! วันนี้ทำได้ %1$d ครั้ง</string>
+
+    <!-- ===== Feedback ALIAS (รองรับโค้ดที่เรียก fb_*) ===== -->
+    <string name="fb_keep_straight">@string/tts_keep_posture</string>
+    <string name="fb_one_more">@string/tts_one_more</string>
+    <string name="fb_move_slowly">@string/tts_slow_down</string>
+    <string name="fb_good_job">@string/tts_good_job</string>
+    <string name="fb_open_chest">ยืดอกค่ะ</string>
+    <string name="fb_drop_shoulders">ลดไหล่ลงค่ะ</string>
+
+    <!-- ===== App / Permission ===== -->
+    <string name="app_name">PhysioARV5</string>
+    <string name="camera_perm_wait">กำลังขอสิทธิ์เข้าถึงกล้อง…</string>
+    <string name="camera_requesting">@string/camera_perm_wait</string>
+
+    <!-- ===== Selection ===== -->
+    <string name="selection_title">เลือกส่วนที่ต้องการบำบัด</string>
+    <string name="part_knee">ข้อเข่า</string>
+    <string name="part_shoulder">ไหล่</string>
+    <string name="part_hand">ข้อมือ</string>
+    <string name="part_back">หลัง</string>
+    <string name="part_ankle">ข้อเท้า</string>
+    <string name="part_hip">สะโพก</string>
+    <string name="lang_th">ไทย</string>
+    <string name="lang_en">EN</string>
+
+    <!-- ===== AR Screen ===== -->
+    <string name="ar_title">ดูท่าสาธิต AR</string>
+    <string name="ar_place_model">วางโมเดล AR 3D</string>
+    <string name="ar_ready">พร้อมเริ่มกายภาพบำบัด</string>
+    <string name="overlay_tracking">กำลังติดตามท่าทาง: %1$s</string>
+
+    <!-- ===== Therapy ===== -->
+    <string name="therapy_reps">จำนวนครั้ง</string>
+    <string name="therapy_progress">ความคืบหน้า</string>
+    <string name="therapy_time">เวลา</string>
+    <string name="therapy_hint_default">ทำท่าให้ถูกต้องตามกรอบเขียว ๆ บนจอ</string>
+    <string name="btn_back">กลับ</string>
+    <string name="btn_pause">หยุดพัก</string>
+    <string name="btn_resume">ดำเนินต่อ</string>
+    <string name="btn_finish">เสร็จสิ้น</string>
+</resources>
